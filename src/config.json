@@ -1,0 +1,5 @@
+{
+    "enviroment": "development",
+    "connectionString": "Server=myServerAdress;Database=myDataBase;UserId=id;Password=pass;",
+    "apiUrlBase": "https://api.test.com/"
+}
