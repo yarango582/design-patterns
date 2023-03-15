@@ -10,7 +10,8 @@ module.exports = {
     coverageReporters: ['text', 'lcov'],
     coveragePathIgnorePatterns: ['/node_modules/'],
     moduleNameMapper: {
-        '^@/(.*)$': '<rootDir>/src/$1',
+        "^@/(.*)$": "<rootDir>/src/$1",
+        '^.+\\.ts$': 'ts-jest',
     },
     globals: {
         'ts-jest': {
@@ -20,4 +21,5 @@ module.exports = {
     transform: {
         '^.+\\.ts$': 'ts-jest',
     },
+
 };

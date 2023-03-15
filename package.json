@@ -3,8 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "jest": {
+    "preset": "ts-jest",
+    "testEnvironment": "node"
+  },
   "scripts": {
-    "test": "jest",
+    "test": "jest --config ./jest.config.js",
     "dev": "nodemon ./src/index.ts"
   },
   "keywords": [],

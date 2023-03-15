@@ -1,4 +1,4 @@
-import config from "../../config.json";
+import config from "./config.json";
 
 /* The MyConfiguration class is a singleton that provides access to the configuration settings in the
 config.json file */
